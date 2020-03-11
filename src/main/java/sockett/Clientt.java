@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Clientt {
 
     public static void main(String[] args) throws Exception{
-        Socket socket = new Socket("localhost",9002);
+        Socket socket = new Socket("localhost",8080);
 
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
